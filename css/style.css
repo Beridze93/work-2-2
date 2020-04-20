@@ -74,6 +74,8 @@ section{
 .about-us{
 	padding: 5% 10%;
 	text-align: center;
+	/*background: rgb(63,94,251);
+	background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);*/
 }
 .self-p{
 	font-size: 20px;
@@ -274,6 +276,26 @@ input[type="Submit"]:hover{
 	max-width: 1200px;
 	width: 100%;
 	margin: 0 auto;
+}
+/*.map{
+	max-width: 624px;
+	width: 100%;
+}*/
+.icone{
+	font-size: 50px;
+	margin-top: 25px;
+}
+.icone a{
+	color: inherit;
+}
+.brr-icone:hover{
+	color: blue;
+}
+.brr-icone1:hover{
+	color: red;
+}
+.brr-icone2:hover{
+	color: #33A5FF;
 }
 
 
