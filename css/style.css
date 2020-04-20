@@ -1,0 +1,294 @@
+section{
+	max-width: 1450px;
+	width: 100%
+	margin: 0 auto;
+}
+.section-bg{
+	background-image: url('../poto/city.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+	width: 100%;
+}
+
+.header-flex{
+	display: flex;
+	justify-content: space-between;
+	padding: 25px;
+}
+.right-header{
+	display: flex;
+}
+.navigation-ul{
+	display: flex;
+}
+.navigation-li{
+	margin-right: 20px;
+}
+.logo-p{
+	color: #fb2274;
+	font-size: 20px;
+	font-family: 'Manrope', sans-serif;
+}
+.nav-a{
+	color: #2691d9;
+	font-size: 15px;
+	font-family: 'Manrope', sans-serif;
+}
+.burger-icone{
+	display: none;
+}
+.image-title{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Lato', sans-serif;
+	color: #fff;
+	font-size: 40px;
+	margin-top: 100px;
+}
+.image-title2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Lato', sans-serif;
+	font-size: 30px;
+	color: #fb2274;
+	margin-top: 20px;
+
+}
+.form-code{
+	display: flex;
+	justify-content: center;
+	/*border-radius: 10px;*/
+	margin-top: 10px;
+}
+.post-code{
+	border-radius: 10px;
+	width: 44%;
+	border:none;
+	outline: none;
+	padding: .6rem;
+}
+.about-us{
+	padding: 5% 10%;
+	text-align: center;
+}
+.self-p{
+	font-size: 20px;
+    margin-top: 10px;
+    font-family: 'Lato', sans-serif;
+}
+
+h1.about-title{
+	color: #fb2274;
+	font-size: 30px;
+	font-family: 'Lato', sans-serif;
+	word-spacing: 10px;
+	letter-spacing: 15px;
+
+}
+.btn a{
+	display: block;
+	width: 120px; 
+	border:2px solid #fb2274;
+	line-height: 30px;
+	margin:25px auto 0;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	color: #fb2274;
+}
+.btn{
+	margin-top: 10px;
+}
+
+.login-using{
+	position: absolute;
+	top: 45%; 
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 400px;
+	background: #fff;
+	border-radius: 10px;
+}
+.login-using h1{
+	margin-top: 18px;
+	text-align: center;
+	padding: 0 0 20px 0;
+	border-bottom: 1px solid silver;
+	font-size: 30px;
+	/*font-family: 'Lexend Giga', sans-serif;*/
+	font-family: 'Manrope', sans-serif;
+
+}
+.login-using form{
+	padding: 0 40px;
+	box-sizing: border-box;
+}
+form .field{
+	position: relative;
+	border-bottom:  2px solid #adadad;
+	margin: 30px 0;
+}
+.field input{
+	width: 100%;
+	padding:0 5px;
+	height: 40px;
+	font-size: 15px;
+	border:none;
+	background-color: none;
+	outline: none;
+}
+
+.field label{
+	position: absolute;
+	top:50%;
+	left: 30px;
+	color: #adadad;
+	transform: translate(-50%);
+	font-size: 16px;
+}
+.field span::before{
+	content: '';
+	position: absolute;
+	top: 40px;
+	left: 0;
+	width: 100%
+	height 3px;
+	background: #2691d9;
+}
+.passw{
+	margin: -5px 0 20px 5px;
+	cursor: pointer;
+	font-family: 'Manrope', sans-serif;
+}
+.passw:hover{
+	text-decoration: underline;
+	color: #2691d9;
+}
+input[type="Submit"]{
+	width: 100%;
+    height: 50px;
+    border: 1px solid;
+    background: #2691d9;
+    border-radius: 25px;
+    font-size: 20px;
+    color: #e9f4fb;
+    cursor: pointer;
+    outline: none;
+}
+input[type="Submit"]:hover{
+	border-color: #2691d9;
+	transition: .5s;
+}
+.link{
+	margin: 30px 0;
+	text-align: center;
+	font-size: 15px;
+	color: #666666;
+	font-family: 'Manrope', sans-serif;
+}
+.link a{
+	color: #2691d9;
+	text-decoration: none;
+}
+.link a:hover{
+	text-decoration: underline;
+}
+
+.title,
+.service{
+	padding: 5% 10%;
+	text-align: center;
+	/*font-family: 'Comic Neue', cursive;*/
+}
+.service{
+	background:#f5f5f5;
+}
+.title{
+	font-size: 35px;
+	font-family: 'Comic Neue', cursive;
+}
+.parg{
+	font-family: 'Roboto', sans-serif;
+	margin-top: 5px;
+	font-size: 13px;
+}
+
+.service-it{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+.service-item{
+	width: 100%;
+	margin-left: 10px;
+}
+.service-item img{
+	width: 100%;
+	margin-bottom: 25px;
+}
+.service-item h3{
+     color: #fb2274;
+     font-size: 10px;
+     margin-bottom: 15px;
+     font-size: 17px;
+}
+.my-service-team{
+	padding: 5% 10%;
+	text-align: center;
+	background-color: #f5f5f5;
+}
+
+.team-wrapper .team{
+	display: flex;
+	/*justify-content: space-between;*/
+	margin-top: 5px;
+
+}
+.team-wrapper{
+	margin-top: 20px;
+}
+.image-wrapper{
+	width: 94%;
+	
+}
+.team-wrapper .team-members img{
+	/*width: 100%;
+	display: block;*/
+	transition: all 0.5s ease;
+
+}
+.team-wrapper .team-members:hover img{
+	transform: scale(1.1);
+
+}
+.title1{
+
+	font-family: 'Comic Neue', cursive;
+	font-size: 30px;
+
+}
+.slider{
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,46 @@
+@media (max-width: 430px){
+	.login-using{
+		width: 200px;
+		top:40%;
+	}
+	.self-p{
+		font-size: 17px
+
+	}
+	/*.service-it{
+		flex-wrap: wrap;
+	}*/
+}
+
+@media (max-width: 427px){
+	.service-it{
+		flex-wrap: wrap;
+	}
+	.service-item{
+		margin-top: 10px;
+	}
+	.team-1{
+		flex-wrap: wrap;
+	}
+	.team-2{
+		flex-wrap: wrap;
+	}
+	.image-wrapper{
+		margin-top: 10px;
+	}
+}
+@media (max-width: 320px){
+	.login-using{
+		width: 221px;
+		margin-top: 44px;
+	}
+}
+@media(max-width: 768px){
+	.navigation{
+		display: none;
+	}
+	.burger-icone{
+		display: block;
+		font-size: 20px;
+	}
+}
