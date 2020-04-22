@@ -52,17 +52,30 @@
 		font-size: 35px;
 	}
 }
-@media(max-width: 760px){
+/*@media(max-width: 760px){
 	.section-flex{
 		flex-wrap: wrap;
 	}
-}
+}*/
 
 /*@media(max-width: 1040px){
 	.ber{
 		flex-wrap: wrap;
 	}
 }*/
+@media(max-width: 950px){
+	
+	.leftb{
+		width: 100%;
+	}
+	.rightb{
+		width: 100%;
+	}
+	.section-flex{
+		flex-wrap: wrap;
+	}
+}
+
 
 
 
