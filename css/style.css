@@ -223,8 +223,9 @@ input[type="Submit"]:hover{
 	margin-top: 5px;
 	font-size: 13px;
 }
-.fll{
+.section-flex{
 	display: flex;
+	justify-content: space-between;
 }
 .leftb{
 	width: 50%;
