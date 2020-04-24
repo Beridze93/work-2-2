@@ -287,6 +287,9 @@ input[type="Submit"]:hover{
 .inst{
 	font-size: 30px;
 }
+.inst:hover{
+	color: red;
+}
 
 .service-it{
 	display: flex;
