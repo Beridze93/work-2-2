@@ -74,6 +74,9 @@
 	.section-flex{
 		flex-wrap: wrap;
 	}
+	.section-flex1{
+		flex-wrap: wrap;
+	}
 }
 
 
