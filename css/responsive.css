@@ -78,6 +78,14 @@
 		flex-wrap: wrap;
 	}
 }
+@media (max-width: 878px){
+	.blue-scr{
+		font-size: 25px;
+	}
+	.pre{
+		margin-top: 10px;
+	}
+}
 
 
 

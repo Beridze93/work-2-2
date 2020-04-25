@@ -220,8 +220,8 @@ input[type="Submit"]:hover{
 }
 .parg{
 	font-family: 'Roboto', sans-serif;
-	margin-top: 5px;
-	font-size: 13px;
+	line-height: 24px;
+	font-size: 19px;
 }
 .section-flex{
 	display: flex;
@@ -274,6 +274,7 @@ input[type="Submit"]:hover{
 }
 .crd{
 	margin-top: 20px;
+
 }
 .iconepr{
 	text-align: center;
@@ -371,7 +372,57 @@ input[type="Submit"]:hover{
 	color: #33A5FF;
 }
 
+.title:after{
+	content: '';
+	background-color: black;
+	width: 120px;
+	height: 4px;
+	margin: 10px auto;
+	display: block;
+}
+.info-br{
+   margin-left: 5px;
+}
 
+/*.blue-scr{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	background-color: #3f4cef;
+	height: 400px;
+}
+.blue-pr{
+	margin-top: 100px;
+    color: white;
+    font-size: 2.75rem;
+}
+*/
+.blue-scr{
+	width: 100%;
+	background-color: #3535ff;
+	color: #fff;
+	height: 400px;
+	padding: 100px;
+	text-align: center;
+	font-size: 40px;
+	font-family: 'ABeeZee', sans-serif;
+    
+}
+
+.pre{
+	color: #fff;
+
+}
+.btn-try{
+	background-color: #ff9900;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 13px;
+    padding: 20px;
+    text-transform: uppercase;
+    margin-top: 41px;
+    font-family: 'Cabin', sans-serif;
+}
 
 
 
