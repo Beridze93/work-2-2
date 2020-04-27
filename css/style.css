@@ -423,8 +423,31 @@ input[type="Submit"]:hover{
     margin-top: 41px;
     font-family: 'Cabin', sans-serif;
 }
+.gr{
+	display: flex;
+	background-color: black;
+	color: #fff;
+	font-family: 'Lato', sans-serif;
+	padding: 17px;
+}
+.hr{
+	margin-top: 10px;
+}
+.prepre{
+	margin-top: 10px;
+}
+.imputbrr{
+	    margin-top: 20px;
+}
 
-
+.media ul li{
+	float: left;
+	padding: 10px;
+	font-size: 20px;
+}
+.mrk{
+	margin-right: 2px;
+}
 
 
 
