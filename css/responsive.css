@@ -87,6 +87,11 @@
 	}
 }
 
+@media (max-width: 768px){
+	.gr{
+		flex-wrap: wrap; 
+	}
+}
 
 
 

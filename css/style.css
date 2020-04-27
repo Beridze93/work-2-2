@@ -429,6 +429,8 @@ input[type="Submit"]:hover{
 	color: #fff;
 	font-family: 'Lato', sans-serif;
 	padding: 17px;
+
+   
 }
 .hr{
 	margin-top: 10px;
@@ -449,8 +451,24 @@ input[type="Submit"]:hover{
 	margin-right: 2px;
 }
 
-
-
+/*.big-footer{
+	background-color: black;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	height: 300px;
+	padding: 20px;
+}
+.footer-cnt h2 {
+	color: white;
+}
+.prepre{
+	color: white;
+}
+.social-mediaa{
+	float: left;
+}
+*/
 
 
 
