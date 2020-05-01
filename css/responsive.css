@@ -15,16 +15,19 @@
 
 @media (max-width: 427px){
 	.service-it{
-		flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
 	}
 	.service-item{
 		margin-top: 10px;
 	}
 	.team-1{
-		flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
 	}
 	.team-2{
-		flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
 	}
 	.image-wrapper{
 		margin-top: 10px;
@@ -72,10 +75,12 @@
 		width: 100%;
 	}
 	.section-flex{
-		flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
 	}
 	.section-flex1{
-		flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
 	}
 }
 @media (max-width: 878px){
@@ -89,8 +94,12 @@
 
 @media (max-width: 768px){
 	.gr{
-		flex-wrap: wrap; 
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap; 
 	}
+}
+@media (max-width: 950px){
+	
 }
 
 
