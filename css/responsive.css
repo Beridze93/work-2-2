@@ -50,6 +50,9 @@
 		font-size: 20px;
 		color: #fff;
 	}
+	.ber-ber{
+		flex-wrap: wrap;
+	}
 	
 }
 @media(max-width: 1008px){
@@ -100,6 +103,7 @@
 @media (max-width: 950px){
 
 }
+
 
 
 

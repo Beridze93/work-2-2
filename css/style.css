@@ -59,6 +59,7 @@ section{
 	width: 80px;
 	border-radius: 50px;
 	padding: 10px;
+
 }
 .nav-a{
 	color: #2691d9;
@@ -474,8 +475,20 @@ input[type="Submit"]:hover{
 	margin-right: 2px;
 }
 
-.webb{
+
+.ber-flexx{
+	max-width: 400px;
 	width: 100%;
+	padding-top: 30px;
+	
+}
+.webb{
+	
+	width: 100%;
+}
+.ber-ber {
+
+	padding: 50px;
 }
 /*.big-footer{
 	background-color: black;
