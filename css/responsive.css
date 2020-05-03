@@ -53,6 +53,9 @@
 	.ber-ber{
 		flex-wrap: wrap;
 	}
+	.webb{
+		margin-top: 10px;
+	}
 	
 }
 @media(max-width: 1008px){

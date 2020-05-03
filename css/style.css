@@ -262,13 +262,13 @@ input[type="Submit"]:hover{
 	width: 100%;
 }
 .blk-p{
-	font-size: 45px;
+	font-size: 39px;
 	font-family: 'Cabin', sans-serif;
 }
 .clpr-1{
-	margin-top: 40px;
-	font-family: 'Cabin', sans-serif;
-	font-size: 20px;
+	    margin-top: 30px;
+    font-family: 'Cabin', sans-serif;
+    font-size: 17px;
 }
 .btn1{
 	background-color: #ff9900;
@@ -479,7 +479,7 @@ input[type="Submit"]:hover{
 .ber-flexx{
 	max-width: 400px;
 	width: 100%;
-	padding-top: 30px;
+	padding-top: 50px;
 	
 }
 .webb{
@@ -487,8 +487,37 @@ input[type="Submit"]:hover{
 	width: 100%;
 }
 .ber-ber {
-
+	margin-top: 15px;
 	padding: 50px;
+	background-color: #795548;
+}
+.ber-flexx h1{
+	font-size: 30px;
+	color: #17a2b8;
+	font-family: 'Cabin', sans-serif;
+}
+.ber-flexx p{
+	margin-top: 40px;
+	font-size: 15px;
+	color: #17a2b8;
+	font-family: 'Cabin', sans-serif;
+}
+.btn-s{
+	
+	background-color: #ff9900;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 13px;
+    padding: 20px;
+    text-transform: uppercase;
+    margin-top: 41px;
+    font-family: 'Cabin', sans-serif;
+    border: 2px solid #fff;
+    letter-spacing: 1px;
+    transition: 1s all ease;
+}
+.btn-s:hover{
+	color: #17a2b8;
 }
 /*.big-footer{
 	background-color: black;
