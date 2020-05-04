@@ -59,6 +59,7 @@ section{
 	width: 80px;
 	border-radius: 50px;
 	padding: 10px;
+	z-index: 2000;
 
 }
 .nav-a{
@@ -518,6 +519,11 @@ input[type="Submit"]:hover{
 }
 .btn-s:hover{
 	color: #17a2b8;
+}
+.pgpg{
+	max-width: 1110px;
+	width: 100%;
+	margin: 0 auto;
 }
 /*.big-footer{
 	background-color: black;
