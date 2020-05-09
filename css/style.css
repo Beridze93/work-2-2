@@ -280,6 +280,11 @@ input[type="Submit"]:hover{
     text-transform: uppercase;
     margin-top: 60px;
     font-family: 'Cabin', sans-serif;
+    letter-spacing: 1px;
+    transition: 1s all ease;
+}
+.btn1:hover{
+	color: #17a2b8;
 }
 .online-info{
 	text-align: center;
