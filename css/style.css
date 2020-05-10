@@ -272,7 +272,7 @@ input[type="Submit"]:hover{
     font-size: 17px;
 }
 .btn1{
-	background-color: #ff9900;
+	background-color: #2196F3;
     color: #fff;
     font-size: 16px;
     border-radius: 40px;
@@ -284,7 +284,7 @@ input[type="Submit"]:hover{
     transition: 1s all ease;
 }
 .btn1:hover{
-	color: #17a2b8;
+	color: black;
 }
 .online-info{
 	text-align: center;
