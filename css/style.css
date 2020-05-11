@@ -114,7 +114,7 @@ section{
     font-family: 'Lato', sans-serif;
 }
 
-h1.about-title{
+h2.about-title{
 	color: #fb2274;
 	font-size: 30px;
 	font-family: 'Lato', sans-serif;
@@ -569,6 +569,18 @@ input[type="Submit"]:hover{
     line-height: 27px;
     margin: auto;
     margin-top: 30px;
+
+}
+.pre-slider20{
+	margin-top: 10px;
+}
+.fonts-p{
+	font-family: 'Cabin', sans-serif;
+}
+.fonts-pp{
+	font-family: 'Cabin', sans-serif;
+	margin-top: 5px;
+	font-size: 16px;
 }
 /*.pgpg{
 	max-width: 1110px;
