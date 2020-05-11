@@ -28,6 +28,9 @@ section{
 	margin-top: 40px;
 
 }
+.br-img-bg{
+	font-family: 'Manrope', sans-serif;
+}
 .bgtitle p{
 	font-family: 'Manrope', sans-serif;
 	color: #fff;
@@ -580,7 +583,7 @@ input[type="Submit"]:hover{
 .fonts-pp{
 	font-family: 'Cabin', sans-serif;
 	margin-top: 5px;
-	
+
 }
 /*.pgpg{
 	max-width: 1110px;
