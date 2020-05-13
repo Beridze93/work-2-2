@@ -77,6 +77,7 @@ section{
 }
 .burger-icone{
 	display: none;
+
 }
 .image-title{
 	display: flex;
@@ -142,6 +143,9 @@ h2.about-title{
 }
 .btn{
 	margin-top: 10px;
+}
+.batochnick{
+	margin-top: 18px;
 }
 
 .login-using{
@@ -588,6 +592,9 @@ input[type="Submit"]:hover{
 .fonts-pp{
 	font-family: 'Cabin', sans-serif;
 	margin-top: 5px;
+}
+.clr-brn{
+	background-color: #ffc0cb;
 }
 /*.pgpg{
 	max-width: 1110px;
