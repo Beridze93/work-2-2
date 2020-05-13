@@ -479,6 +479,7 @@ input[type="Submit"]:hover{
     text-transform: uppercase;
     margin-top: 41px;
     font-family: 'Cabin', sans-serif;
+    border: 2px solid #fff;
 }
 .gr{
 	display: flex;
