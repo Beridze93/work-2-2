@@ -1,10 +1,3 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
-
 @media (max-width: 430px){
 	.login-using{
 		margin-top: 50px;
@@ -27,19 +20,16 @@
 
 @media (max-width: 427px){
 	.service-it{
-		-ms-flex-wrap: wrap;
-		    flex-wrap: wrap;
+		flex-wrap: wrap;
 	}
 	.service-item{
 		margin-top: 10px;
 	}
 	.team-1{
-		-ms-flex-wrap: wrap;
-		    flex-wrap: wrap;
+		flex-wrap: wrap;
 	}
 	.team-2{
-		-ms-flex-wrap: wrap;
-		    flex-wrap: wrap;
+		flex-wrap: wrap;
 	}
 	.image-wrapper{
 		margin-top: 10px;
@@ -64,11 +54,16 @@
 		color: #fff;
 	}
 	.ber-ber{
-		-ms-flex-wrap: wrap;
-		    flex-wrap: wrap;
+		flex-wrap: wrap;
 	}
 	.webb{
 		margin-top: 10px;
+	}
+	.nav-hambyrger{
+		display: block;
+	}
+	.right-header{
+		margin-top: 0
 	}
 	
 }
@@ -97,12 +92,10 @@
 		width: 100%;
 	}
 	.section-flex{
-		-ms-flex-wrap: wrap;
-		    flex-wrap: wrap;
+		flex-wrap: wrap;
 	}
 	.section-flex1{
-		-ms-flex-wrap: wrap;
-		    flex-wrap: wrap;
+		flex-wrap: wrap;
 	}
 }
 @media (max-width: 878px){
@@ -116,13 +109,14 @@
 
 @media (max-width: 768px){
 	.gr{
-		-ms-flex-wrap: wrap;
-		    flex-wrap: wrap; 
+		flex-wrap: wrap; 
 	}
 }
 @media (max-width: 950px){
 
 }
+
+
 
 
 

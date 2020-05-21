@@ -1,10 +1,3 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
-
 section{
 	width: 100%;
 	margin: 0 auto;
@@ -18,15 +11,9 @@ section{
 	width: 100%;
 }
 .bg-titlee{
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
-	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
+	justify-content: center;
+	align-items: center;
 }
 .bg-text h1{
 	 font-size: 50px;
@@ -40,15 +27,9 @@ section{
 	margin-top: 100px;
 }*/
 .bgtitle{
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
-	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
+	justify-content: center;
+	align-items: center;
 	margin-top: 40px;
 
 }
@@ -62,24 +43,16 @@ section{
 	width: 639px;
 }
 .header-flex{
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-pack: justify;
-	    -ms-flex-pack: justify;
-	        justify-content: space-between;
+	justify-content: space-between;
 	/*padding: 25px;*/
 }
 .right-header{
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
 	margin-top: 20px;
 	padding: 10px;
 }
 .navigation-ul{
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
 }
 .navigation-li{
@@ -102,35 +75,23 @@ section{
 	font-size: 15px;
 	font-family: 'Manrope', sans-serif;
 }
-.burger-icone{
+/*.burger-icone{
 	display: none;
 
-}
+}*/
 .image-title{
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
-	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
+	justify-content: center;
+	align-items: center;
 	font-family: 'Lato', sans-serif;
 	color: #fff;
 	font-size: 40px;
 	margin-top: 100px;
 }
 .image-title2{
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
-	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
+	justify-content: center;
+	align-items: center;
 	font-family: 'Lato', sans-serif;
 	font-size: 30px;
 	color: #fb2274;
@@ -138,12 +99,8 @@ section{
 
 }
 .form-code{
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
+	justify-content: center;
 	/*border-radius: 10px;*/
 	margin-top: 10px;
 }
@@ -195,9 +152,7 @@ h2.about-title{
 	position: absolute;
 	top: 45%; 
 	left: 50%;
-	-webkit-transform: translate(-50%, -50%);
-	    -ms-transform: translate(-50%, -50%);
-	        transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
 	width: 400px;
 	background: #fff;
 	border-radius: 10px;
@@ -214,8 +169,7 @@ h2.about-title{
 }
 .login-using form{
 	padding: 0 40px;
-	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
+	box-sizing: border-box;
 }
 form .field{
 	position: relative;
@@ -237,13 +191,9 @@ form .field{
 	top:50%;
 	left: 38px;
 	color: #adadad;
-	-webkit-transform: translate(-50%);
-	    -ms-transform: translate(-50%);
-	        transform: translate(-50%);
+	transform: translate(-50%);
 	font-size: 16px;
 	pointer-events: none;
-	-webkit-transition: .5s;
-	-o-transition: .5s;
 	transition: .5s;
 	font-family: 'Manrope', sans-serif;
 }
@@ -290,8 +240,6 @@ input[type="Submit"]{
 }
 input[type="Submit"]:hover{
 	border-color: #2691d9;
-	-webkit-transition: .5s;
-	-o-transition: .5s;
 	transition: .5s;
 }
 .link{
@@ -328,12 +276,8 @@ input[type="Submit"]:hover{
 	font-size: 19px;
 }
 .section-flex{
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-pack: justify;
-	    -ms-flex-pack: justify;
-	        justify-content: space-between;
+	justify-content: space-between;
 }
 .leftb{
 	width: 50%;
@@ -364,8 +308,6 @@ input[type="Submit"]:hover{
     margin-top: 60px;
     font-family: 'Cabin', sans-serif;
     letter-spacing: 1px;
-    -webkit-transition: 1s all ease;
-    -o-transition: 1s all ease;
     transition: 1s all ease;
 }
 .btn1:hover{
@@ -408,12 +350,8 @@ input[type="Submit"]:hover{
 }
 
 .service-it{
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-pack: justify;
-	    -ms-flex-pack: justify;
-	        justify-content: space-between;
+	justify-content: space-between;
 	margin-top: 30px;
 }
 .service-item{
@@ -437,8 +375,6 @@ input[type="Submit"]:hover{
 }
 
 .team-wrapper .team{
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
 	/*justify-content: space-between;*/
 	margin-top: 5px;
@@ -454,15 +390,11 @@ input[type="Submit"]:hover{
 .team-wrapper .team-members img{
 	/*width: 100%;
 	display: block;*/
-	-webkit-transition: all 0.5s ease;
-	-o-transition: all 0.5s ease;
 	transition: all 0.5s ease;
 
 }
 .team-wrapper .team-members:hover img{
-	-webkit-transform: scale(1.1);
-	    -ms-transform: scale(1.1);
-	        transform: scale(1.1);
+	transform: scale(1.1);
 
 }
 
@@ -550,8 +482,6 @@ input[type="Submit"]:hover{
     border: 2px solid #fff;
 }
 .gr{
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
 	background-color: black;
 	color: #fff;
@@ -618,8 +548,6 @@ input[type="Submit"]:hover{
     font-family: 'Cabin', sans-serif;
     border: 2px solid #fff;
     letter-spacing: 1px;
-    -webkit-transition: 1s all ease;
-    -o-transition: 1s all ease;
     transition: 1s all ease;
 }
 .btn-s:hover{
@@ -630,12 +558,8 @@ input[type="Submit"]:hover{
     margin-right: 15px;
 }
 .bg-text{
-	    display: -webkit-box;
-	    display: -ms-flexbox;
 	    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
     text-align: center;
     margin-top: 100px;
 }
@@ -644,12 +568,8 @@ input[type="Submit"]:hover{
     color: #fff;
 }
 .bg-titl{
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
     text-align: center;
     margin-top: 40px;
 }
@@ -678,7 +598,30 @@ input[type="Submit"]:hover{
 	background-color: #ffc0cb;
 }
 
- 
+/*burgerstyle*/
+ .fa-1x {
+font-size: 1.5rem;
+}
+.navbar-toggler.toggler-example {
+cursor: pointer;
+}
+.dark-blue-text {
+color: #0A38F5;
+}
+.dark-pink-text {
+color: #AC003A;
+}
+.dark-amber-text {
+color: #ff6f00;
+}
+.dark-teal-text {
+color: #004d40;
+}
+
+.nav-hambyrger{
+	display: none;
+}
+
 
 
 
